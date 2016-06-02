@@ -13,33 +13,45 @@
       <h1> Find your perfect match </h1>
       <h2>1. Select your favorite topic</h2>
       <select class="form-control" id="favTopic">
+        <option value="-1">Choose from the options below</option>
         <option value="1">technology</option>
         <option value="2">art</option>
         <option value="3">fitness</option>
       </select>
-      <div id="followUp1">
+      <div id="followUp2a">
         <h2>2. Select your favorite technology</h2>
         <select class="form-control" id="favTech">
+          <option value="-1">Choose from the options below</option>
           <option value="1">teleportation</option>
           <option value="2">robot maids</option>
           <option value="3">time travel</option>
         </select>
       </div>
-      <div id="followUp2">
+      <div id="followUp2b">
         <h2>2. Select your favorite artist</h2>
         <select class="form-control" id="favArt">
+          <option value="-1">Choose from the options below</option>
           <option value="1">Andy Warhol</option>
           <option value="2">Leonardo DaVinci</option>
           <option value="3">Walt Disney</option>
         </select>
       </div>
-      <div id="followUp3">
+      <div id="followUp2c">
         <h2>2. Select your favorite fitness challenge</h2>
         <select class="form-control" id="favFit">
+          <option value="-1">Choose from the options below</option>
           <option value="1">iron man competitions</option>
           <option value="2">Zumba</option>
           <option value="3">synchronized swimming</option>
         </select>
+      </div>
+      <div id="followUp3">
+        <h2>3. What's your favorite color?</h2>
+        <div class="form-group">
+          <!-- <label for="color">What is your favorite color?</label> -->
+          <input id="color" class="form-control" type="color">
+          <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+        </div>
       </div>
     </div>
 
